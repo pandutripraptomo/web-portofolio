@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <title>Pandu Tri Praptomo - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <img
+            src="images/navbar-logo.png" alt="My Logo"
+            id="navbar-logo-img"
+          />
+          <span>Portfolio</span>
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="#home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="150"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <a href="#education">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="250"
+          >
+            <a href="#experience">Experience</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
+            <a href="#achievements">Achievements</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="350"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+          <div
+            class="link contact-btn"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <a href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#home" onclick="cancel()">Home</a>
+          <a href="#about" onclick="cancel()">About</a>
+          <a href="#education" onclick="cancel()">Education</a>
+          <a href="#experience" onclick="cancel()">Experience</a>
+          <a href="#achievements" onclick="cancel()">Achievements</a>
+          <a href="#skills" onclick="cancel()">Skills</a>
+          <a href="#projects" onclick="cancel()">Projects</a>
+          <a href="#contact" onclick="cancel()">Contact Me</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="main-container">
+        <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+          <img
+            src="images/pandu-main.png" alt="Pandu Tri Praptomo - Data Analyst"
+          />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+          >
+            Hey, I'm <span>Pandu</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+          >
+            I'm a <span></span>
+          </div>
+          <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+            Highly analytical Informatics student with proven experience in data
+            analytics, business intelligence, and developing tech-driven
+            solutions. Eager to apply strong proficiency in SQL, Excel, Python, and BI tools to drive meaningful change and solve complex challenges in a dynamic data analyst role.
+          </p>
+
+          <div
+            class="social-links"
+            data-aos="flip-down"
+            data-aos-duration="1000"
+            data-aos-delay="1200"
+          >
+            <a
+              href="https://www.linkedin.com/in/pandutripraptomo/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/pandutripraptomo" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="https://medium.com/@pandutripraptomo" target="_blank"
+              ><i class="fa-brands fa-medium"></i
+            ></a>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-out-left"
+            data-aos-duration="1000"
+            data-aos-delay="1300"
+          >
+            <a
+              href="CV - Pandu Tri Praptomo.pdf" download="PanduTriPraptomo-CV.pdf"
+              ><button>Download CV</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="content-section">
+      <div
+        class="section-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div
+            class="about-image"
+            data-aos="fade-right"
+            data-aos-duration="1200"
+          >
+            <img src="images/aboutme.png" alt="About Pandu Tri Praptomo" /> </div>
+          <div class="about-text" data-aos="fade-left" data-aos-duration="1200">
+            <p>
+              I am a highly analytical Informatics student with a robust
+              background in data analytics, business intelligence, and the
+              development of technology-driven solutions. My academic journey
+              includes a Bachelor of Information Technology from Asia e
+              University (current GPA 4.00/4.00) and a Bachelor of Informatics
+              from the University of Al-Azhar Indonesia (current GPA 3.36/4.00),
+              specializing in Data at both institutions. I also hold an
+              Associate's Degree in Information Technology from CEP CCIT Faculty
+              Engineering University of Indonesia (GPA 3.29/4.00).
+            </p>
+            <p>
+              My passion lies in transforming real-world challenges through
+              technology, coupled with an entrepreneurial mindset. I have
+              demonstrated an ability to build innovative business foundations
+              by streamlining reporting processes and enhancing operational
+              visibility using real-time dashboards. I possess strong
+              problem-solving, communication, and cross-functional collaboration
+              skills.
+            </p>
+            <p>
+              I've gained practical experience through internships at the
+              Central Bank of Indonesia and PT Bank Rakyat Indonesia Tbk, where
+              I honed my skills in developing BI solutions, automating
+              processes, and conducting in-depth data analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="content-section">
+      <div class="section-container" data-aos="fade-up">
+        <h2>Education & Milestones</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-aeu.png" alt="Asia e University Logo"
+                  class="timeline-entry-logo"
+                />
+                <h3>Asia e University, Subang Jaya, Malaysia</h3>
+              </div>
+              <p>
+                <strong
+                  >Bachelor of Information Technology (Specializing in
+                  Data)</strong
+                >
+              </p>
+              <span class="timeline-date">Aug 2022 - Present</span>
+              <p>Latest GPA: 4.00/4.00</p>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-uai.jpg" alt="University of Al-Azhar Indonesia Logo"
+                  class="timeline-entry-logo"
+                />
+                <h3>University of Al-Azhar Indonesia, Jakarta, Indonesia</h3>
+              </div>
+              <p>
+                <strong>Bachelor of Informatics (Specializing in Data)</strong>
+              </p>
+              <span class="timeline-date">Sept 2024 - Present</span>
+              <p>Latest GPA: 3.36/4.00</p>
+              <ul>
+                <li>
+                  100% Scholarship Awardee Coding Camp 2025 powered by DBS
+                  Foundation in Machine Learning Class
+                </li>
+                <li>Assistant Lecturer in Data Mining Subject</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon"><i class="fas fa-award"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-ccit.png" alt="CEP CCIT University of Indonesia Logo"
+                  class="timeline-entry-logo"
+                />
+                <h3>
+                  CEP CCIT Faculty Engineering University of Indonesia, West
+                  Java, Indonesia
+                </h3>
+              </div>
+              <p>
+                <strong>Associate's Degree of Information Technology</strong>
+              </p>
+              <span class="timeline-date">Aug 2022 - Nov 2024</span>
+              <p>Latest GPA: 3.29/4.00</p>
+              <ul>
+                <li>
+                  Best Project IoT in Faculty - Weather Monitoring System with
+                  Integration Android & IOS Mobile
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon"><i class="fas fa-certificate"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <h3>Certifications</h3>
+              </div>
+              <span class="timeline-date">2023 - 2025</span>
+              <ul>
+                <li>
+                  Microsoft Business Analyst Professional Certificate (Feb 2025)
+                </li>
+                <li>
+                  Google - Data Analytics Professional Certificate
+                  Specialization (Dec 2024)
+                </li>
+                <li>
+                  Meta - Data Analyst Professional Certificate Specialization
+                  (Dec 2024)
+                </li>
+                <li>
+                  CCIT, University of Indonesia - Professional Program
+                  Certificate in Information Technology (IoT) (Nov 2024)
+                </li>
+                <li>
+                  Cisco Networking Academy - Big Data & Analytics (Dec 2023)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="content-section">
+      <div class="section-container" data-aos="fade-up">
+        <h2>Internship Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-bi.png" alt="Central Bank of Indonesia Logo"
+                  class="timeline-entry-logo logo-bi-custom" 
+                />
+                <h3>Central Bank of Indonesia | Data Analyst (Internship)</h3>
+              </div>
+              <span class="timeline-date">Mar 2025 - Present</span>
+              <ul>
+                <li>
+                  Applied a tech-driven mindset to develop and maintain internal
+                  systems using Microsoft PowerApps, fostering seamless
+                  collaboration across multiple departments and showcasing an
+                  innovative business foundation.
+                </li>
+                <li>
+                  Developed interactive dashboards and Excel VBA tools to
+                  automate financial budget execution, significantly improving
+                  real-time visibility and operational transparency—a clear
+                  example of delivering tech-driven solutions for meaningful
+                  change.
+                </li>
+                <li>
+                  Designed operational dashboards in Looker Studio and Google
+                  Sheets to visualize key financial KPIs, supporting timely and
+                  data-informed decisions across business units and addressing
+                  real-world challenges through technology.
+                </li>
+                <li>
+                  Processed and visualized over 5,000 rows of financial data,
+                  ensuring high accuracy and accelerating reporting cycles by
+                  over 50%.
+                </li>
+                <li>
+                  Collaborated with cross-functional teams to track KPIs and
+                  improve performance monitoring, reflecting a data-driven
+                  approach to internal operations.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-bri.png" alt="PT Bank Rakyat Indonesia Tbk Logo"
+                  class="timeline-entry-logo"
+                />
+                <h3>
+                  PT Bank Rakyat Indonesia Tbk | Data Analytics (Internship)
+                </h3>
+              </div>
+              <span class="timeline-date">Aug 2024 - Feb 2025</span>
+              <ul>
+                <li>
+                  Automated and scaled enterprise dashboards using Excel VBA,
+                  Tableau, and Looker Studio to monitor financial KPIs and
+                  pipeline metrics, enhancing operational visibility and
+                  reducing manual reporting time by 50%.
+                </li>
+                <li>
+                  Conducted sentiment analysis on over 27 million Google
+                  reviews, delivering real-time insights through daily
+                  dashboards to support service enhancement and agile
+                  decision-making.
+                </li>
+                <li>
+                  Developed predictive credit risk scoring models using SQL and
+                  Python, improving loan approval accuracy by 20% and supporting
+                  risk mitigation efforts.
+                </li>
+                <li>
+                  Cleaned and restructured over 20 million customer data
+                  entries, improving data quality to 98%.
+                </li>
+                <li>
+                  Built geospatial dashboards using ArcGIS and Google Earth
+                  Engine, identifying high-potential MSME zones.
+                </li>
+                <li>
+                  Authored and maintained Business Requirement Documents (BRDs)
+                  in Confluence and Jira.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-icon"><i class="fas fa-code"></i></div>
+            <div class="timeline-content">
+              <div class="timeline-entry-header">
+                <img
+                  src="images/logo-propertree.jpg" alt="PT Propertree Investa Cendikia Logo"
+                  class="timeline-entry-logo"
+                />
+                <h3>
+                  PT Propertree Investa Cendikia | Frontend Developer
+                  (Internship)
+                </h3>
+              </div>
+              <span class="timeline-date">Apr 2024 - Jul 2024</span>
+              <ul>
+                <li>
+                  Developed and optimized web applications using React and
+                  Next.js, improving user experience (UX) by 30%.
+                </li>
+                <li>
+                  Automated data workflows with SQL queries, increasing data
+                  retrieval efficiency.
+                </li>
+                <li>
+                  Reduced website load time by 30% through performance
+                  optimization.
+                </li>
+                <li>
+                  Built reusable UI components to accelerate development cycles.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+      <div
+        class="section-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2>Key Achievements</h2>
+        <div class="achievements-grid">
+          <div
+            class="achievement-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+          >
+            <div class="number">50%</div>
+            <div class="description">
+              Reduced manual reporting time via dashboard automation at BRI.
+            </div>
+          </div>
+          <div
+            class="achievement-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
+            <div class="number">27M+</div>
+            <div class="description">
+              Analyzed Google reviews for service enhancement insights.
+            </div>
+          </div>
+          <div
+            class="achievement-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="200"
+          >
+            <div class="number">20%</div>
+            <div class="description">
+              Improved loan approval accuracy with predictive credit risk models.
+            </div>
+          </div>
+          <div
+            class="achievement-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <div class="number">50%+</div>
+            <div class="description">
+              Accelerated financial data reporting cycles at Bank Indonesia.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="content-section">
+      <div
+        class="section-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-item" data-aos="zoom-in" data-aos-duration="500">
+            <i class="fas fa-tools skill-icon"></i>
+            <h3>Data & Analytics Tools</h3>
+            <p>
+              SQL, Python, Excel, Tableau, Power BI, Looker Studio.
+            </p>
+          </div>
+          <div
+            class="skill-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="100"
+          >
+            <i class="fas fa-chart-pie skill-icon"></i>
+            <h3>Visualization & Reporting</h3>
+            <p>
+              Real-Time Dashboarding, Report Automation, KPI Monitoring, Data
+              Storytelling.
+            </p>
+          </div>
+          <div
+            class="skill-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="200"
+          >
+            <i class="fas fa-briefcase skill-icon"></i>
+            <h3>Business & Analytical</h3>
+            <p>
+              Market Research, Operational Analysis, Risk Scoring, Budget
+              Tracking.
+            </p>
+          </div>
+          <div
+            class="skill-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="300"
+          >
+            <i class="fas fa-users skill-icon"></i>
+            <h3>Collaboration & Soft Skills</h3>
+            <p>
+              Confluence, Jira; Analytical Thinking, Problem Solving,
+              Collaboration, Communication.
+            </p>
+          </div>
+          <div
+            class="skill-item"
+            data-aos="zoom-in"
+            data-aos-duration="500"
+            data-aos-delay="400"
+          >
+            <i class="fas fa-language skill-icon"></i>
+            <h3>Languages</h3>
+            <p>Indonesian (Native), English (Professional).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="content-section">
+      <div
+        class="section-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div
+            class="project-card clickable"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-project-title="Microloan Performance & Risk Monitoring Dashboard"
+            data-project-image="images/micro.png" data-project-context="Fragmented datasets and manual processes hindered real-time visibility into microloan opportunities and credit risk. Operational teams lacked daily insights for tracking loan performance across different business stages."
+            data-project-action="• Developed a Looker Studio-based application dashboard, enabling operational teams to monitor loan pipelines and regional conversion in real-time.
+• Automated data workflows using SQL and Python, reducing data processing time by 70%.
+• Supported daily coordination among teams by consolidating data into a unified dashboard.
+• Co-designed KPI dashboards for DPK and NPL for risk-informed decisions."
+            data-project-tools="Looker Studio,SQL,Python"
+            data-project-link="https://lookerstudio.google.com/reporting/a0d70235-b821-4d7e-a0a8-feab547a108b/page/p_gwml8sqfdd"
+          >
+            <img
+              src="images/microloan.png" alt="Microloan Performance & Risk Monitoring Dashboard"
+            />
+            <div class="project-info">
+              <h3>Microloan Performance & Risk Monitoring Dashboard</h3>
+              <p>
+                Developed a Looker Studio dashboard for real-time loan pipeline
+                monitoring, reducing data processing time by 70% using SQL &
+                Python.
+              </p>
+              <div class="project-tags">
+                <span>Looker Studio</span><span>SQL</span><span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card clickable"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            data-project-title="Recovery DH Monitoring Dashboard"
+            data-project-image="images/rec.png" data-project-context="Monitoring and improving the recovery process of delinquent loans (DH) across various regions in Indonesia was challenging due to fragmented data and lack of real-time insights."
+            data-project-action="• Collaborated to develop a real-time dashboard application that tracks delinquent loan recovery by region and unit.
+• Designed KPI visualizations (recovery rate, overdue age, resolution time).
+• Automated data integration and transformation workflows using SQL.
+• Enhanced coordination between teams, improving recovery efficiency."
+            data-project-tools="Looker Studio,SQL,Python"
+            data-project-link="https://lookerstudio.google.com/reporting/a4a6f465-0cee-4919-b7c7-d15bcdae69c0/page/p_f4ozx8zohd"
+          >
+            <img
+              src="images/rec-dh.png" alt="Recovery DH Monitoring Dashboard"
+            />
+            <div class="project-info">
+              <h3>Recovery DH Monitoring Dashboard</h3>
+              <p>
+                Developed a real-time dashboard tracking delinquent loan
+                recovery, automating data integration with SQL and significantly
+                improving efficiency.
+              </p>
+              <div class="project-tags">
+                <span>Looker Studio</span><span>SQL</span><span>Python</span>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="project-card clickable"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+            data-project-title="Revolutionizing Business Intelligence in the Banking Industry"
+            data-project-subtitle="How Remote Sensing and Satellite Data Enhance Agricultural MSME Credit Distribution"
+            data-project-image="images/tableau.png" data-project-context="Agricultural MSME lending faces risks due to limited financial history, unpredictable weather, and manual credit assessments."
+            data-project-action="• Integrated satellite indicators with banking credit data, increasing loan allocation accuracy from 58.5% to 66.3%.
+• Co-developed the Village Sustainability Potential Index (VSPI) as a KPI.
+• Delivered actionable geospatial dashboards using Power BI and ArcGIS.
+• Built Python- and SQL-based data pipelines for real-time loan risk monitoring."
+            data-project-tools="Google Earth Engine,Power BI,ArcGIS,Python,SQL"
+            data-project-link="https://public.tableau.com/app/profile/putu.kana.narayan.dharmawan/viz/Satelit-KreditPertanian/NDVISatelit"
+          >
+            <img
+              src="images/riau.png" alt="Revolutionizing Business Intelligence in Banking"
+            />
+            <div class="project-info">
+              <h3>Revolutionizing Business Intelligence in Banking</h3>
+              <p>
+                Integrated satellite data with credit data, increasing loan
+                allocation accuracy. Developed VSPI index and geospatial
+                dashboards.
+              </p>
+              <div class="project-tags">
+                <span>Google Earth Engine</span><span>Power BI</span
+                ><span>ArcGIS</span><span>Python</span><span>SQL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section">
+      <div
+        class="section-container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <h2>Contact Me</h2>
+        <p class="contact-intro">
+          I'm always excited to discuss new projects, data challenges, or
+          opportunities. Feel free to reach out!
+        </p>
+        <div class="contact-details">
+          <div
+            class="contact-item"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <i class="fas fa-envelope"></i>
+            <p>
+              <a href="mailto:pandutripraptomo@gmail.com"
+                >pandutripraptomo@gmail.com</a
+              >
+            </p>
+          </div>
+          <div
+            class="contact-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <i class="fab fa-linkedin"></i>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/pandutripraptomo/"
+                target="_blank"
+                >linkedin.com/in/pandutripraptomo</a
+              >
+            </p>
+          </div>
+          <div
+            class="contact-item"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
+            <i class="fab fa-github"></i>
+            <p>
+              <a href="https://github.com/pandutripraptomo/" target="_blank"
+                >github.com/pandutripraptomo</a
+              >
+            </p>
+          </div>
+          <div
+            class="contact-item"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
+            <i class="fab fa-medium"></i>
+            <p>
+              <a href="https://medium.com/@pandutripraptomo" target="_blank"
+                >medium.com/@pandutripraptomo</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Pandu Tri Praptomo. All Rights
+        Reserved. | Designed with <i class="fas fa-heart"></i>
+      </p>
+    </footer>
+
+    <a href="#" id="backToTopBtn" title="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <div id="projectModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body">
+          <img
+            src=""
+            alt="Project Image"
+            class="modal-project-image"
+            id="modalProjectImage"
+            style="display: none"
+          />
+          <h3 id="modalProjectTitle"></h3>
+          <h4
+            id="modalProjectSubtitle"
+            style="
+              font-size: 1rem;
+              color: var(--medium-blue);
+              margin-top: -10px;
+              margin-bottom: 15px;
+              display: none;
+            "
+          ></h4>
+          <p><strong>Context & Challenge:</strong></p>
+          <p id="modalProjectContext"></p>
+          <p><strong>Action & Result:</strong></p>
+          <div id="modalProjectAction" style="white-space: pre-line"></div>
+          <p style="margin-top: 15px"><strong>Tools Used:</strong></p>
+          <div id="modalProjectTools" class="tools-used"></div>
+          <p
+            id="modalProjectLinkContainer"
+            style="margin-top: 20px; display: none"
+          >
+            <a
+              href="#"
+              id="modalProjectLink"
+              class="project-link"
+              target="_blank"
+              >View Full Project/Demo <i class="fas fa-external-link-alt"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 50, once: true });
+    </script>
+    <script>
+      // Fungsi Navigasi Dropdown
+      function hamburg() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(0px)";
+      }
+      function cancel() {
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = "translateY(-600px)";
+      }
+
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        if (anchor.id === "backToTopBtn") return; 
+
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          if (targetId !== "#") {
+            try {
+              const targetElement = document.querySelector(targetId);
+              if (targetElement) {
+                const headerOffset =
+                  document.querySelector("nav").offsetHeight + 20;
+                const elementPosition =
+                  targetElement.getBoundingClientRect().top;
+                const offsetPosition =
+                  elementPosition + window.pageYOffset - headerOffset;
+
+                window.scrollTo({
+                  top: offsetPosition,
+                  behavior: "smooth",
+                });
+              }
+            } catch (error) {
+              console.error("Error scrolling to: ", targetId, error);
+            }
+          }
+          if (
+            document.querySelector(".dropdown").style.transform ===
+            "translateY(0px)"
+          ) {
+            cancel();
+          }
+        });
+      });
+
+      const typewriterSpan = document.querySelector("#home .typewriter span");
+      if (typewriterSpan) {
+        const words = [
+          "Data Analyst",
+          "BI Developer",
+          "Insight Creator",
+          "Problem Solver",
+        ];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let currentWord = "";
+        let isDeleting = false;
+
+        function type() {
+          currentWord = words[wordIndex];
+          if (isDeleting) {
+            typewriterSpan.textContent = currentWord.substring(0, charIndex--);
+          } else {
+            typewriterSpan.textContent = currentWord.substring(0, charIndex++);
+          }
+
+          if (!isDeleting && charIndex === currentWord.length) {
+            setTimeout(() => (isDeleting = true), 2000);
+          } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+          }
+          const typeSpeed = isDeleting ? 80 : 120;
+          setTimeout(type, typeSpeed);
+        }
+        type();
+      }
+
+      const modal = document.getElementById("projectModal");
+      const projectCards = document.querySelectorAll(".project-card.clickable");
+      const closeModalButton = document.querySelector(".close-modal");
+
+      projectCards.forEach((card) => {
+        card.addEventListener("click", function () {
+          const title = this.dataset.projectTitle;
+          const subtitle = this.dataset.projectSubtitle;
+          const image = this.dataset.projectImage;
+          const context = this.dataset.projectContext;
+          const action = this.dataset.projectAction;
+          const tools = this.dataset.projectTools.split(",");
+          let link = this.dataset.projectLink; 
+
+          if (link && typeof link === 'string') {
+            link = link.replace(/^\[|\]$/g, ""); 
+          }
+
+          document.getElementById("modalProjectTitle").textContent = title;
+          document.getElementById("modalProjectContext").textContent = context;
+
+          const actionElement = document.getElementById("modalProjectAction");
+          actionElement.innerHTML = "";
+          const actionLines = action
+            .split("•")
+            .map((s) => s.trim())
+            .filter((s) => s.length > 0);
+          if (actionLines.length > 0 && action.includes("•")) {
+            const ul = document.createElement("ul");
+            actionLines.forEach((point) => {
+              const li = document.createElement("li");
+              li.textContent = point;
+              ul.appendChild(li);
+            });
+            actionElement.appendChild(ul);
+          } else {
+            actionElement.innerHTML = action.replace(/\n/g, "<br>");
+          }
+
+          const toolsContainer = document.getElementById("modalProjectTools");
+          toolsContainer.innerHTML = "";
+          tools.forEach((tool) => {
+            const span = document.createElement("span");
+            span.textContent = tool.trim();
+            toolsContainer.appendChild(span);
+          });
+
+          const modalImageElement =
+            document.getElementById("modalProjectImage");
+          if (
+            image &&
+            !image.toLowerCase().includes("ganti image") && // Lebih toleran terhadap placeholder image
+            !image.toLowerCase().includes("placeholder") &&
+            image.trim() !== "" && image !== "images/default-project-image.png" // Jangan tampilkan jika path adalah default atau kosong
+          ) {
+            modalImageElement.src = image;
+            modalImageElement.style.display = "block";
+          } else {
+            modalImageElement.src = ""; 
+            modalImageElement.style.display = "none";
+          }
+
+          const modalSubtitleElement = document.getElementById(
+            "modalProjectSubtitle"
+          );
+          if (subtitle && subtitle.trim() !== "") {
+            modalSubtitleElement.textContent = subtitle;
+            modalSubtitleElement.style.display = "block";
+          } else {
+            modalSubtitleElement.style.display = "none";
+          }
+
+          const linkContainer = document.getElementById(
+            "modalProjectLinkContainer"
+          );
+          const linkElement = document.getElementById("modalProjectLink");
+          
+          // Kondisi lebih ketat untuk memastikan link valid sebelum ditampilkan
+          if (link && link.trim() !== "" && link !== "#" && !link.toLowerCase().startsWith("[ganti") && !link.toLowerCase().includes("placeholder")) {
+            linkElement.href = link;
+            linkContainer.style.display = "block";
+          } else {
+            linkContainer.style.display = "none";
+            linkElement.href = "#"; 
+          }
+
+          modal.style.display = "block";
+          document.body.style.overflow = "hidden";
+        });
+      });
+
+      if (closeModalButton) {
+        closeModalButton.onclick = function () {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+        };
+      }
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+        }
+      };
+
+      const backToTopButton = document.getElementById("backToTopBtn");
+
+      function scrollFunction() {
+        if (backToTopButton) {
+          if (
+            document.body.scrollTop > 100 ||
+            document.documentElement.scrollTop > 100
+          ) {
+            backToTopButton.classList.add("show");
+          } else {
+            backToTopButton.classList.remove("show");
+          }
+        }
+      }
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      if (backToTopButton) {
+        backToTopButton.addEventListener("click", function (e) {
+          e.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
